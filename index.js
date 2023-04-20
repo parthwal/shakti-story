@@ -101,6 +101,23 @@ document.addEventListener("keydown", function (event) {
     button.innerHTML = "Scroll To Continue";
   }
 });
+let count = 0;
+
+function increaseCount() {
+  count++;
+  localStorage.setItem('count', count);
+}
+
+function updateCount() {
+  let countElement = document.getElementById('count');
+  let storedCount = localStorage.getItem('count');
+  if (storedCount !== null) {
+    count = parseInt(storedCount);
+  }
+  countElement.innerText = count;
+}
+
+updateCount();
 
 
 // default is 1000 ms; but for testing I set that to 0 ms..

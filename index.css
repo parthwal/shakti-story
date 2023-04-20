@@ -1,4 +1,8 @@
 @font-face {
+  font-family: Modak;
+  src: url(Fonts/Modak-Regular.ttf);
+}
+@font-face {
   font-family: Moranga;
   src: url(Fonts/Moranga/Latinotype\ -\ Moranga\ Regular.otf);
 }

@@ -119,7 +119,18 @@ function updateCount() {
 
 updateCount();
 
-
+function displayScore(score) {
+  // Set the text content of the alert based on the score
+  if (score === 1) {
+    alert('Oops, you only scored 1');
+  } else if (score === 2) {
+    alert('Not bad, you scored 2');
+  } else if (score === 3) {
+    alert('Wow, you scored 3!');
+  } else if (score === 0) {
+    alert('You scored 0');
+  }
+}
 // default is 1000 ms; but for testing I set that to 0 ms..
 // I guess it's exhausting JS interpreter (don't know much about it).
 

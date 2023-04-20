@@ -2,10 +2,10 @@ var s = skrollr.init(); //initialising skrollr
 function stopScroll() {
   s.destroy();
 }
-// if (performance.navigation.type === 1) {
-//   // Redirect the user back to index.html
-//   window.location.href = "index.html";
-// }
+if (performance.navigation.type === 1) {
+  // Redirect the user back to index.html
+  window.location.href = "index.html";
+}
 //pause custom
 function restart() {
   //restarts the scroll

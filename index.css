@@ -1,6 +1,6 @@
 @font-face {
   font-family: Modak;
-  src: url(Fonts/Modak-Regular.ttf);
+  src: url(Fonts/Modak-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: Moranga;

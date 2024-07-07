@@ -1,5 +1,5 @@
 # Shakti: A Journey of Choices
-
+https://shaktijourney.netlify.app
 ## Overview
 
 "Shakti: A Journey of Choices" is an interactive educational game designed to teach young children about personal safety. The game covers important topics such as "bad touch" and "stranger danger," allowing kids to practice making safe choices in various scenarios.
